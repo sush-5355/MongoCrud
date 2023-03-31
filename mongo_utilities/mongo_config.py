@@ -11,7 +11,7 @@ mongo_creds = {
     'password': os.environ.get('mongo_password'),
     'hostname': os.environ.get('mongo_hostname'),
     "port": os.environ.get('mongo_port'),
-    "database":"abgdatabase"
+    "database": "abgdatabase"
 }
 
 if mongo_creds.get('username') == "":
